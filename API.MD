@@ -37,3 +37,16 @@
 ```
     window.location.href='goofypapa://stopAllAudio';
 ```
+
+10. POST请求
+> URL: string  
+> Parameter: json  
+> SuccessCallback: func name  
+> FailCallabck: func name
+```
+    window.location.href='goofypapa://Post,[URL],[SuccessCallback],[FailCallabck],[Parameter]...';
+```
+11. GET请求
+```
+    window.location.href='goofypapa://Get,[URL],[successCallback],[failCallabck],[patameter]...';
+```
